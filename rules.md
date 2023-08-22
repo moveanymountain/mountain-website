@@ -21,7 +21,7 @@ server.
 
 ## 2 DAO Structure
 
-The DAO redistributes JMES tokens, obtained from block rewards, to individuals who contribute projects that align with the DAO's strategy and vision. These projects can range from individual art pieces to larger, community-led developments such as art exhibitions or online events.
+The DAO redistributes JMES tokens, obtained from block rewards, to individuals who contribute projects that align with the DAO's strategy and vision. These projects can range from individual art pieces to larger, community-led developments such as recording albums or creating events.
 
 The DAO follows the principles of full transparency, meaning that all decisions, financial transactions, and internal operations are conducted publicly. This includes how projects are proposed, selected, developed, and rewarded. All work produced within the DAO is open-source and licensed under the MIT License. The DAO's vision is to empower artists and foster a rich ecosystem of digital and physical art experiences.
 
