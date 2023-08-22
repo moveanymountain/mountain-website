@@ -1,0 +1,95 @@
+---
+permalink: /
+layout: default-app
+---
+<script>
+
+        $(document).ready(async function () {
+                //console.log('board id index', boardId);
+                $('#loading-data').show();
+
+                try {
+                        let data = await getTrelloAllData();
+                        $('#loading-data').hide();
+                        let lists = transformTrelloData(data).lists;
+                        //parse data to html tables & display
+                        $('#summary-data-flex-item-left').append(listToTable('production', 'Project', lists.project));
+                        //$('#summary-data-flex-item-left').append("<a href='{{site.baseurl}}/bounties'>more bounties...</a>")
+                        /*
+                        $('#list_spec').append(listToTable('spec', 'Specification', lists.spec));
+                        $('#list_service').append(listToTable('service', 'Service', lists.service));
+                        $('#list_job').append(listToTable('job', 'Job', lists.job));
+                        $('#list_qa').append(listToTable('qa', 'QA', lists.qa));
+                        */
+                }
+                catch (e) {
+                        $('#loading-data').css("background-color", "red");
+                        $('#loading-data').text(`There was an error loading the data: ${e}`);
+                        $('#loading-data').show();
+                }
+
+        });
+</script>
+
+<!-- TEST THEMES FROM CONFIG DATA -->
+<!--<p class="testtheme">What color am I if not {{ site.data.app.theme.testcolor }}</p>-->
+
+<!--<div style="background:red;margin:20px;padding:10px;text-align:center;">This is a pre-release version: displayed data is for testing purposes only</div>-->
+<p>
+Move Any Mountain is an incubator for artists and artistic projects funded direclty from the <a href="http://jmes.art/"
+target="_blank">JMES blockchain</a>, with a focus on electronic music producers, labels and events.
+</p>
+<p>
+Our mission is to dismantle traditional gatekeepers in the music industry, enabling artists to earn a living and secure funding to kickstart their careers through the decentralized funding features of the JMES blockchain. 
+</p>
+<p>
+Any kind of art that aligns with our mission can be incentivized if our community votes for it.
+</p>
+<p>
+Whether you want to propose ideas, make music, manage & promote events, or improve or work for the Mountain DAO itself,
+check the bounties below or join the community in our <a href="http://chat.magicmansion.io/"
+        target="_blank">Discord</a>
+server.
+</p>
+
+
+
+<div class="menu-flex-container">
+        <a href="https://trello.com" class="menu-flex-item-left" id="menu-flex-item-left">
+                Join our Trello
+        </a>
+        <a href="https://trello.com" class="menu-flex-item-right" id="menu-flex-item-right">
+                Request a Concept
+        </a>
+</div>
+<div class="menu-flex-container">
+        <a href="{{site.baseurl}}/bounties" class="menu-flex-item-left" id="menu-flex-item-left">
+                Earn bounties
+        </a>
+        <a href="http://chat.moveanymountain.io" class="menu-flex-item-right" id="menu-flex-item-right">
+                Ask a question in Discord
+        </a>
+</div>
+
+<div class="summary-data-flex-container">
+        <div class="menu-flex-item-left" id="summary-data-flex-item-left">
+                <h3>Latest Bounties</h3>
+                <div align="right"><a href='{{site.baseurl}}/blog'>show all...</a></div>
+        </div>
+        <div class="menu-flex-item-right" id="summary-data-flex-item-right">
+                <h3>Latest Blog Posts</h3>
+                <div align="right"><a href='{{site.baseurl}}/blog'>show all...</a></div>
+                <ul>
+                        {% for post in site.posts %}
+                        <li>
+                                <h3><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h3>
+                                <h4>{{ post.date | date_to_string }} - {{ post.author }}</h4>
+                                {{ post.excerpt }}
+                                <hr>
+                        </li>
+                        {% endfor %}
+                </ul>
+                
+        </div>
+
+</div>

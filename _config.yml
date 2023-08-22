@@ -1,0 +1,21 @@
+theme: jekyll-theme-hacker
+# Allow future dated posts
+future: true
+title: Move Any Mountain
+url: "https://moveanymountain.io" # the base hostname & protocol for your site
+repoBaseUrl: https://github.com/moveanymountain/moveanymountain-website 
+plugins:
+  - jekyll-sitemap
+tagline: Get rewards for producing music and managing labels and events on the JMES blockchain
+description: Claim bounties for new ideas, specifying and working on tasks, and carring out QA.
+logo: /assets/image/logo.svg
+twitter:
+  username: mountaindao
+  card: summary
+social:
+  name: Move Any Mountain
+  links:
+    - https://twitter.com/moveanymountaindao
+    - https://github.com/moveanymountain
+    - https://chat.moveanymountain.io
+google_analytics: G-PZE9FSBKDS
