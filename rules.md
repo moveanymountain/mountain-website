@@ -7,7 +7,7 @@ Move Any Mountain is an incubator for artists and artistic projects funded direc
 target="_blank">JMES blockchain</a>, with a focus on electronic music producers, labels and events.
 </p>
 <p>
-Our mission is to dismantle traditional gatekeepers in the music industry, enabling artists to earn a living and secure funding to kickstart their careers through the decentralized funding features of the JMES blockchain. 
+Our mission is to dismantle traditional gatekeepers in the art and music industry, enabling artists to earn a living and secure funding to kickstart their careers through the decentralized funding features of the JMES blockchain. 
 </p>
 <p>
 Any kind of art that aligns with our mission can be incentivized if our community votes for it.
