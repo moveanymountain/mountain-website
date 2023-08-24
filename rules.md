@@ -100,8 +100,6 @@ The DAO operates with a rolling budget, where funds are received into the DAO wa
 
 The proposal owners (POs) are responsible for overseeing the funds and raising governance proposals. They control the multi-sig wallet of the DAO identity. The POs ensure that funds are used solely for approved task claims that align with the rules. They have additional intervention rights to maintain adherence to the rules.
 
-POs are elected and can be added or removed based on voting by admins and non-PO contributors. The voting process follows a threshold and requires a majority vote for adding or removing a PO.
-
 The DAO is working towards full decentralization, where code automation and smart contracts will handle fund management. Budgeting and claw-back mechanisms for unspent funds are being considered to prevent the accumulation of large fund reserves.
 
 Auditing of the DAO can be conducted by anyone. The accounts can be audited by comparing the total funds spent on the blockchain with the total task claims awarded in the payments sheet. The work conducted in the DAO can be audited to ensure compliance with the rules and the quality of output.
