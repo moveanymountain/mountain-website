@@ -7,7 +7,7 @@ Move Any Mountain is an incubator for artists and artistic projects funded direc
 target="_blank">JMES blockchain</a>, with a focus on electronic music producers, labels and events.
 </p>
 <p>
-Our mission is to dismantle traditional gatekeepers in the music industry, enabling artists to earn a living and secure funding to kickstart their careers through the decentralized funding features of the JMES blockchain. 
+Our mission is to dismantle traditional gatekeepers in the art and music industry, enabling artists to earn a living and secure funding to kickstart their careers through the decentralized funding features of the JMES blockchain. 
 </p>
 <p>
 Any kind of art that aligns with our mission can be incentivized if our community votes for it.
@@ -99,8 +99,6 @@ Funds in the DAO are obtained through proposals submitted to the JMES Network. T
 The DAO operates with a rolling budget, where funds are received into the DAO wallet and pooled across proposals. The budget is available to admins for allocation to bounties and task rewards.
 
 The proposal owners (POs) are responsible for overseeing the funds and raising governance proposals. They control the multi-sig wallet of the DAO identity. The POs ensure that funds are used solely for approved task claims that align with the rules. They have additional intervention rights to maintain adherence to the rules.
-
-POs are elected and can be added or removed based on voting by admins and non-PO contributors. The voting process follows a threshold and requires a majority vote for adding or removing a PO.
 
 The DAO is working towards full decentralization, where code automation and smart contracts will handle fund management. Budgeting and claw-back mechanisms for unspent funds are being considered to prevent the accumulation of large fund reserves.
 
